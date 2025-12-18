@@ -1,0 +1,6 @@
+
+{
+  "name": "Ikatan Kimia Interaktif",
+  "description": "Aplikasi pembelajaran kimia interaktif tentang ikatan ionik, kovalen, dan logam dengan visualisasi 3D dan kuis.",
+  "requestFramePermissions": ["microphone"]
+}

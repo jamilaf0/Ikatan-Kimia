@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ikatan Kimia - Profil</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-slate-50">
+  <header class="fixed top-0 inset-x-0 bg-white/90 backdrop-blur-md shadow-sm z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="text-2xl font-black text-blue-600">⚛️ IKATAN KIMIA</div>
+      <div class="hidden md:block text-center text-[10px] text-slate-500 font-medium">Jamila Fitrianingsih<br>NIM. 220331600596</div>
+      <a href="profil.html" class="px-5 py-2 rounded-full bg-gradient-to-r from-blue-500 to-pink-400 text-white font-bold text-sm">👤 Profil</a>
+    </div>
+  </header>
+
+  <nav class="fixed top-[64px] inset-x-0 bg-white shadow-md z-40 overflow-x-auto">
+    <div class="max-w-7xl mx-auto px-2 flex">
+      <a href="index.html" class="nav-item px-6 py-4 text-sm font-bold whitespace-nowrap border-b-4 text-slate-500 border-transparent">🏠 Beranda</a>
+      <a href="teori.html" class="nav-item px-6 py-4 text-sm font-bold whitespace-nowrap border-b-4 text-slate-500 border-transparent">📚 Teori Dasar</a>
+      <a href="ionik.html" class="nav-item px-6 py-4 text-sm font-bold whitespace-nowrap border-b-4 text-slate-500 border-transparent">⚡ Ionik</a>
+      <a href="kovalen.html" class="nav-item px-6 py-4 text-sm font-bold whitespace-nowrap border-b-4 text-slate-500 border-transparent">🔗 Kovalen</a>
+      <a href="logam.html" class="nav-item px-6 py-4 text-sm font-bold whitespace-nowrap border-b-4 text-slate-500 border-transparent">🔩 Logam</a>
+      <a href="sifat.html" class="nav-item px-6 py-4 text-sm font-bold whitespace-nowrap border-b-4 text-slate-500 border-transparent">🧬 Sifat</a>
+      <a href="kuis.html" class="nav-item px-6 py-4 text-sm font-bold whitespace-nowrap border-b-4 text-slate-500 border-transparent">🎯 Kuis</a>
+    </div>
+  </nav>
+
+  <main class="mt-40 max-w-xl mx-auto p-4 md:p-8 relative z-10">
+    <div class="panel text-center">
+      <div class="w-32 h-32 mx-auto rounded-3xl bg-gradient-to-br from-blue-200 to-pink-200 border-4 border-white shadow-lg mb-6 flex items-center justify-center text-5xl">👤</div>
+      <h2 class="text-3xl font-black text-slate-800 mb-2">Jamila Fitrianingsih</h2>
+      <p class="text-blue-600 font-bold mb-8">NIM. 220331600596</p>
+      
+      <div class="space-y-4 text-left">
+        <div class="p-4 bg-slate-50 rounded-2xl border border-slate-100">
+          <span class="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Universitas</span>
+          <span class="font-bold text-slate-700">Universitas Negeri Malang</span>
+        </div>
+        <div class="p-4 bg-slate-50 rounded-2xl border border-slate-100">
+          <span class="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Mata Kuliah</span>
+          <span class="font-bold text-slate-700">Bahan Ajar Digital Berbasis AI</span>
+        </div>
+      </div>
+      <a href="index.html" class="mt-10 inline-block px-10 py-3 rounded-xl bg-slate-900 text-white font-bold">Kembali ke Beranda</a>
+    </div>
+  </main>
+
+  <button id="musicToggleBtn" class="fixed bottom-8 right-8 z-50 p-4 rounded-full shadow-2xl bg-white text-slate-400">🔇</button>
+  <script type="module" src="script.js"></script>
+</body>
+</html>

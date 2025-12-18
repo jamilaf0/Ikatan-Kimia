@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ikatan Kimia - Sifat Senyawa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-slate-50">
+  <header class="fixed top-0 inset-x-0 bg-white/90 backdrop-blur-md shadow-sm z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="text-2xl font-black text-blue-600">⚛️ IKATAN KIMIA</div>
+      <div class="hidden md:block text-center text-[10px] text-slate-500 font-medium">Jamila Fitrianingsih<br>NIM. 220331600596</div>
+      <a href="profil.html" class="px-5 py-2 rounded-full bg-gradient-to-r from-blue-500 to-pink-400 text-white font-bold text-sm">👤 Profil</a>
+    </div>
+  </header>
+
+  <nav class="fixed top-[64px] inset-x-0 bg-white shadow-md z-40 overflow-x-auto">
+    <div class="max-w-7xl mx-auto px-2 flex">
+      <a href="index.html" class="nav-item px-6 py-4 text-sm font-bold whitespace-nowrap border-b-4 text-slate-500 border-transparent">🏠 Beranda</a>
+      <a href="teori.html" class="nav-item px-6 py-4 text-sm font-bold whitespace-nowrap border-b-4 text-slate-500 border-transparent">📚 Teori Dasar</a>
+      <a href="ionik.html" class="nav-item px-6 py-4 text-sm font-bold whitespace-nowrap border-b-4 text-slate-500 border-transparent">⚡ Ionik</a>
+      <a href="kovalen.html" class="nav-item px-6 py-4 text-sm font-bold whitespace-nowrap border-b-4 text-slate-500 border-transparent">🔗 Kovalen</a>
+      <a href="logam.html" class="nav-item px-6 py-4 text-sm font-bold whitespace-nowrap border-b-4 text-slate-500 border-transparent">🔩 Logam</a>
+      <a href="sifat.html" class="nav-item px-6 py-4 text-sm font-bold whitespace-nowrap border-b-4 text-slate-500 border-transparent">🧬 Sifat</a>
+      <a href="kuis.html" class="nav-item px-6 py-4 text-sm font-bold whitespace-nowrap border-b-4 text-slate-500 border-transparent">🎯 Kuis</a>
+    </div>
+  </nav>
+
+  <main class="mt-40 max-w-6xl mx-auto p-4 md:p-8 relative z-10">
+    <div class="panel">
+      <h2 class="text-4xl font-extrabold text-blue-600 mb-6 pb-4 border-b">🧬 Sifat Senyawa</h2>
+      <div class="overflow-x-auto rounded-2xl border border-slate-200">
+        <table class="w-full text-left">
+          <thead class="bg-slate-50 border-b">
+            <tr>
+              <th class="p-4 font-bold text-slate-800">Sifat</th>
+              <th class="p-4 font-bold text-slate-800">Ionik</th>
+              <th class="p-4 font-bold text-slate-800">Kovalen</th>
+              <th class="p-4 font-bold text-slate-800">Logam</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y">
+            <tr>
+              <td class="p-4 font-bold">Wujud (Kamar)</td>
+              <td class="p-4">Padat</td>
+              <td class="p-4">Gas, Cair, Padat</td>
+              <td class="p-4">Padat (kecuali Hg)</td>
+            </tr>
+            <tr>
+              <td class="p-4 font-bold">Titik Leleh</td>
+              <td class="p-4">Sangat Tinggi</td>
+              <td class="p-4">Rendah</td>
+              <td class="p-4">Tinggi</td>
+            </tr>
+            <tr>
+              <td class="p-4 font-bold">Konduktivitas</td>
+              <td class="p-4">Cair/Larutan</td>
+              <td class="p-4">Isolator</td>
+              <td class="p-4">Sangat Baik</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="flex justify-between mt-12">
+        <a href="logam.html" class="px-6 py-2 rounded-xl border border-slate-200 font-bold text-slate-600">← Ikatan Logam</a>
+        <a href="kuis.html" class="px-6 py-2 rounded-xl bg-blue-600 text-white font-bold">Lanjut: Kuis →</a>
+      </div>
+    </div>
+  </main>
+
+  <button id="musicToggleBtn" class="fixed bottom-8 right-8 z-50 p-4 rounded-full shadow-2xl bg-white text-slate-400">🔇</button>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
